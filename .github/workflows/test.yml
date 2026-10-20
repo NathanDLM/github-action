@@ -2,7 +2,7 @@
   on: [push]
 
   jobs:
-    faire-un-hello:
+    info-systeme:
       runs-on: ubuntu-latest
       steps:
         - name: Afficher info systeme
