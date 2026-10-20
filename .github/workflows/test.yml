@@ -6,7 +6,7 @@
       runs-on: ubuntu-latest
       steps:
         - name: Afficher info systeme
-          run: 
+          run: |
             echo "Déclenché par un push"
             uname -a
             whoami
